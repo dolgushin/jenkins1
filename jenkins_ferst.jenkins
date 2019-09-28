@@ -21,5 +21,9 @@ pipeline {
                 sh 'ssh root@host2 \'uptime\''
             }
         }
+        stage("Four step") {
+            steps {
+                sh 'ssh root@host2 \'ls -la\''
     }
+    
 }
