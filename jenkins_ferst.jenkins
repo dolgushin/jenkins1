@@ -26,5 +26,5 @@ pipeline {
                 sh 'ssh root@host2 \'ls -la\''
             }
         }
-         
+    }
 }
