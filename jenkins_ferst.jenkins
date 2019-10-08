@@ -23,7 +23,7 @@ pipeline {
         }
         stage("Four step") {
             steps {
-                sh 'ssh root@host2 \'ls -la\''
+                sh 'ssh root@host2 \'ls -ll\''
             }
         }
     }
